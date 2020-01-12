@@ -32,6 +32,6 @@ for(i in 1:999){
     f <- f + 1
   }
 }
-k <- lapply(l, is.palindrome)
-max(l[unlist(k)])
+k <- sapply(l, is.palindrome)
+max(l[k])
 
